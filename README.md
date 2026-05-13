@@ -18,7 +18,7 @@ There are two reasons why I want to build this agentic tool: to get myself famil
 I highly recommend you to check out the [`uv`](https://docs.astral.sh/uv/) python package manager for installing and managing
 dependencies for project like this one, which is more for experimenting and prototyping. It is extremely fast and easy to use.
 
-After you install [`uv`](https://docs.astral.sh/uv/), run the following command to install the dependencies:
+After you install [`uv`](https://docs.astral.sh/uv/), run the following command in the root directory of this project to install the dependencies:
 
 ```bash
 uv sync

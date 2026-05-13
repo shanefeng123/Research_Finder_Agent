@@ -3,7 +3,8 @@
 ## About
 
 This is a simple agentic workflow that searches for research papers based on your research 
-interests and your specified topic.
+interests and your specified topic, implemented with [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents)
+, an agentic framework.
 
 The design is relatively simple. The agent first asks the user for their research interests and the topic they want to search for. 
 Then, it searches the topic on arXiv. It then filters the results based on the user's research interests and retrieves the relevant papers.

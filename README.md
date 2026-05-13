@@ -58,4 +58,5 @@ There are many ways to improve and expand this project, such as:
 , etc.
 - Adding filtering methods, such as using embedding similarity, etc.
 - Supporting local LLM for deployment
-- Adding memory management, such as saving the search history, etc.
+- Use a different workflow design, instead of just linear
+- Use a different framework, such as LangGraph, CrewAI, etc.

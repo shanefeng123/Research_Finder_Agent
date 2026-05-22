@@ -2,7 +2,7 @@ import asyncio
 
 from agents import (
     Agent,
-    trace,
+    trace, ModelSettings,
 )
 from dotenv import load_dotenv
 
@@ -18,6 +18,7 @@ email_agent = Agent(
     model="gpt-4o-mini",
     tools=[get_research_request, send_email],
     handoff_description="Send the final list of papers to the user's email address specified in the research request",
+    model_settings=ModelSettings(tool_choice="required"),
 )
 
 paper_filtering_agent = Agent(
